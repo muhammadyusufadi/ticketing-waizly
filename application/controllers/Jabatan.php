@@ -37,9 +37,9 @@ class Jabatan extends CI_Controller
 			$this->M_jabatan->insert($data);
 			$this->session->set_flashdata('message', '<div class="alert alert-info"> Data Berhasil Di Simpan </div>');
 			redirect('jabatan', 'refresh');
-		} else {
-			$this->index();
 		}
+
+		$this->template->load('back/template', 'back/jabatan/add_jabatan');
 	}
 
 	function edit_jabatan($id)
