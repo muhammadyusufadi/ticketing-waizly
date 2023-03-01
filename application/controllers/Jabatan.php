@@ -39,7 +39,7 @@ class Jabatan extends CI_Controller
 			redirect('jabatan', 'refresh');
 		}
 
-		$this->template->load('back/template', 'back/jabatan/add_jabatan');
+		$this->template->load('back/template3', 'back/jabatan/add_jabatan');
 	}
 
 	function edit_jabatan($id)
