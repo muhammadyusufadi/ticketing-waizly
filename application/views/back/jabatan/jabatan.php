@@ -50,12 +50,12 @@
                                                 <i class="fa fa-edit"></i>
                                             </a>
 
-                                            <a href="<?= base_url(
-																'jabatan/delete_jabatan/' . $row->id_jabatan,
-															) ?>" class="btn btn-danger btn sweet-confirm">
+                                            <a onclick="return confirm('Apakah yakin akan hapus data?')" href="<?= base_url(
+																														'jabatan/delete_jabatan/' . $row->id_jabatan,
+																													) ?>" class="btn btn-danger btn sweet-confirm">
                                                 <i class="fa fa-trash"></i>
                                             </a>
-                                            <button class="btn btn-warning btn sweet-confirm">Sweet Confirm</button>
+                                            <!-- <button class="btn btn-warning btn sweet-confirm">Sweet Confirm</button> -->
 
                                         </td>
                                     </tr>
