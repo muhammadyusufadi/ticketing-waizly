@@ -2,37 +2,36 @@
             Content body start
         ***********************************-->
 <div class="content-body">
-	<div class="container-fluid mt-3">
-		<div class="row">
-			<div class="col-lg-3 col-sm-6">
-				<h1>JABATAN</h1>
-			</div>
-		</div>
-		<!-- <div class="alert alert-success"> Selamat Datang <b> <?= $this->session->username; ?> </b> </div> -->
-	</div>
-	<div class="container-fluid mt-3">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Tambah Jabatan</h4>
-						<?= $this->session->flashdata('message'); ?>
-						<?= validation_errors() ?>
-						<div class="table-responsive">
-							<form action="<?= base_url('jabatan/save_jabatan') ?>" method="POST">
-								<div class="form-group">
-									<label for="">Jabatan</label>
-									<input type="text" class="form-control input-default" placeholder="" name="jabatan">
+    <div class="row page-titles mx-0">
+        <div class="col p-md-0">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                <li class="breadcrumb-item active"><a href="javascript:void(0)">Karyawan</a></li>
+                <li class="breadcrumb-item active">Tambah</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Tambah Jabatan</h4>
+                        <div class="table-responsive">
+                            <form action="<?= base_url('jabatan/save_jabatan') ?>" method="POST">
+                                <div class="form-group">
+                                    <label for="">Jabatan</label>
+                                    <input type="text" class="form-control input-default" placeholder="" name="jabatan">
 
-								</div>
-								<button type="submit" class="btn btn-primary btn-sm"> Save </button>
-								<button type="reset" class="btn btn-danger btn-sm"> Reset </button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="col-lg-6">
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-sm"> Save </button>
+                                <button type="reset" class="btn btn-secondary btn-sm"> Reset </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-6">
 				<div class="card">
 					<div class="card-body">
 						<h4 class="card-title">Data Jabatan</h4>
@@ -70,9 +69,9 @@
 					</div>
 				</div>
 			</div> -->
-		</div>
-	</div>
-	<!-- #/ container -->
+        </div>
+    </div>
+    <!-- #/ container -->
 </div>
 <!--**********************************
 

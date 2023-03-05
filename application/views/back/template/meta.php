@@ -21,6 +21,9 @@
     <link type="text /css" href="<?php base_url() ?>assets/template/css/style.css" rel="stylesheet">
     <link type="text/css" href="<?php base_url() ?>assets/template/icons/font-awesome/css/font-awesome.min.css"
         rel="stylesheet">
+    <link href="<?php base_url() ?>assets/template/./plugins/tables/css/datatable/dataTables.bootstrap4.min.css"
+        rel="stylesheet">
+    <link href="<?php base_url() ?>assets/template/./plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
 
 
 </head>
@@ -46,6 +49,24 @@
         Main wrapper start
     ********************
 ***************-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

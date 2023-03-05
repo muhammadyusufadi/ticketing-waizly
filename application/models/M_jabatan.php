@@ -29,6 +29,18 @@ class M_jabatan extends CI_Model
 		// return $this->db->get_where($this->_table, ['id_jabatan' => $id])->row();
 		// print_r($this->db->get_where($this->_table, ['id_jabatan' => $id])->row());
 	}
+
+	function update($id, $data)
+	{
+		$this->db->where('id_jabatan', $id);
+		$this->db->update('jabatan', $data);
+	}
+
+	function delete($id)
+	{
+		$this->db->where('id_jabatan', $id);
+		$this->db->delete('jabatan');
+	}
 }
 
 /* End of file ModelName.php */
