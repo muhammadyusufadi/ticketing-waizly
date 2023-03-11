@@ -30,8 +30,8 @@
 <script src="<?php base_url() ?>assets/template/./plugins/tables/js/datatable/dataTables.bootstrap4.min.js"></script>
 <script src="<?php base_url() ?>assets/template/./plugins/tables/js/datatable-init/datatable-basic.min.js"></script>
 
-<script src="<?php base_url() ?>assets/template/./plugins/sweetalert/js/sweetalert.min.js"></script>
-<script src="<?php base_url() ?>assets/template/./plugins/sweetalert/js/sweetalert.init.js"></script>
+<!-- <script src="<?php base_url() ?>assets/template/./plugins/sweetalert/js/sweetalert.min.js"></script>
+<script src="<?php base_url() ?>assets/template/./plugins/sweetalert/js/sweetalert.init.js"></script> -->
 
 
 <script src="<?php base_url() ?>assets/template/./js/dashboard/dashboard-1.js"></script>

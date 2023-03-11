@@ -23,7 +23,7 @@
         rel="stylesheet">
     <link href="<?php base_url() ?>assets/template/./plugins/tables/css/datatable/dataTables.bootstrap4.min.css"
         rel="stylesheet">
-    <link href="<?php base_url() ?>assets/template/./plugins/sweetalert/css/sweetalert.css" rel="stylesheet">
+    <!-- <link href="<?php base_url() ?>assets/template/./plugins/sweetalert/css/sweetalert.css" rel="stylesheet"> -->
 
 
 </head>
@@ -49,6 +49,8 @@
         Main wrapper start
     ********************
 ***************-->
+
+
 
 
 

@@ -6,7 +6,7 @@
 		<div class="col p-md-0">
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-				<li class="breadcrumb-item active"><a href="javascript:void(0)">Karyawan</a></li>
+				<li class="breadcrumb-item active"><a href="javascript:void(0)">Divisi</a></li>
 				<li class="breadcrumb-item active">Edit</a></li>
 			</ol>
 		</div>
@@ -17,13 +17,13 @@
 			<div class="col-lg-12">
 				<div class="card">
 					<div class="card-body">
-						<h4 class="card-title">Edit Jabatan</h4>
+						<h4 class="card-title">Edit divisi</h4>
 						<div class="table-responsive">
-							<form action="<?= base_url('jabatan/update_jabatan') ?>" method="POST">
+							<form action="<?= base_url('divisi/update_divisi') ?>" method="POST">
 								<div class="form-group">
-									<label for="">Jabatan</label>
-									<input type="hidden" class="form-control input-default" placeholder="" name="id_jabatan" value="<?= $jbt->id_jabatan ?>">
-									<input type="text" class="form-control input-default" placeholder="" name="jabatan" value="<?= $jbt->jabatan ?>">
+									<label for="">divisi</label>
+									<input type="hidden" class="form-control input-default" placeholder="" name="id_divisi" value="<?= $dvs->id_divisi ?>">
+									<input type="text" class="form-control input-default" placeholder="" name="divisi" value="<?= $dvs->divisi ?>">
 
 								</div>
 								<button type="submit" class="btn btn-primary btn-sm"> Edit </button>
@@ -40,6 +40,15 @@
 <!--**********************************
 
             Content body end
+
+
+
+
+
+
+
+
+
 
 
 
